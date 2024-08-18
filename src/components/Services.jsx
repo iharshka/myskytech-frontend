@@ -2,7 +2,7 @@ import { servicesOffered } from "../constants/index.jsx";
 export default function Services() {
     return (
         <>
-        <div className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
+        <div id="services" className="relative mt-20 border-b border-neutral-800 min-h-[800px]">
             <div className="text-center">
                 <span className="bg-neutral-900 text-indigo-500 rounded-full h-6 text-md font-medium py-1 px-2 uppercase">
                     Services
