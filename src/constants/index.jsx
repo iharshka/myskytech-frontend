@@ -6,25 +6,32 @@ import { Handshake } from "lucide-react";
 import { Shield } from "lucide-react";
 // import { Gauge } from "lucide-react";
 
+import linkedin from "../../public/fb.svg";
+import mail from "../../public/mail.svg";
+
+import user1 from "../assets/user1.jpg";
+import user2 from "../assets/user2.jpg";
+
 export const navItems = [
+    {label: "Home", href: "#home"},
     {label: "About", href: "#about"},
     {label: "Services", href: "#services"},
     {label: "Testimonials", href: "#testimonials"},
-    {label: "Reach out to us", href: "#contact"},
+    {label: "Contact us", href: "#contact"},
 ];
 
 export const testimonials = [
     {
         user: "John Doe",
         company: "Stellar Solutions",
-        image: "https://plus.unsplash.com/premium_photo-1681489930334-b0d26fdb9ed8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29ycG9yYXRlJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D",
-        text: "Harsh is very hardworking person. I was very satisfied with the services provided!"
+        image: user1,
+        text: "These are very hardworking persons. I was very satisfied with the services provided!These are very hardworking persons. I was very satisfied with the services provided!These are very hardworking persons. I was very satisfied with the services provided!"
     },
     {
         user: "Johnny Doing",
         company: "Stellary Business",
-        image: "https://plus.unsplash.com/premium_photo-1683121771856-3c3964975777?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvcnBvcmF0ZSUyMGltYWdlfGVufDB8fDB8fHww",
-        text: "Harsh is very hardworking person. I repeat the same thing as John said. I was very satisfied with the services provided!"
+        image: user2,
+        text: "Harsh is very hardworking person. I repeat the same thing as John said. I was very satisfied with the services provided!These are very hardworking persons. I was very satisfied with the services provided!"
     },
 ];
 
@@ -65,3 +72,16 @@ export const servicesOffered = [
     //     description: "Proactive IT support and maintenance to ensure seamless operations. 24/7 monitoring, help desk support, and network management for uninterrupted business continuity.",
     // },
 ];
+
+export const socialLinks = [
+    {
+        icon: linkedin,
+        href: "#",
+        alt: "Connect with us on LinkedIn",
+    },
+    {
+        icon: mail,
+        href: "mailto:info@myskytech.com",
+        alt: "Email Us",
+    },
+]

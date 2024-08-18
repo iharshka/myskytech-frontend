@@ -26,8 +26,8 @@ export default function Navbar() {
                     ))}
                 </ul>
                 <div className="hidden lg:flex justify-center space-x-12 items-center">
-                    <a href="#" className='py-2 px-3 border rounded-md'>Newsletter</a>
-                    <a href="#" className='bg-gradient-to-r from-indigo-500 to-indigo-800 py-2 px-3 rounded-md'>Schedule a call</a>
+                    <a href="#" className='bg-gradient-to-r from-indigo-500 to-indigo-800 py-2 px-3 rounded-md'>Newsletter</a>
+                    {/* <a href="#" className='bg-gradient-to-r from-indigo-500 to-indigo-800 py-2 px-3 rounded-md'>Schedule a call</a> */}
                 </div>
                 <div className="lg:hidden md:flex flex-col justify-end">
                     <button onClick={toggleMobileNav}>
@@ -45,8 +45,8 @@ export default function Navbar() {
                         ))}
                     </ul>
                     <div className="lg:hidden flex justify-center space-x-5 items-center">
-                        <a href="#" className="py-2 px-3 border rounded-md">Newsletter</a>
-                        <a href="#" className="bg-gradient-to-r from-indigo-500 to-indigo-800 py-2 px-3 rounded-md">Schedule a Call</a>
+                        <a href="#" className="bg-gradient-to-r from-indigo-500 to-indigo-800 py-2 px-3 rounded-md">Newsletter</a>
+                        {/* <a href="#" className="bg-gradient-to-r from-indigo-500 to-indigo-800 py-2 px-3 rounded-md">Schedule a Call</a> */}
                     </div>
                 </div>
             )}
