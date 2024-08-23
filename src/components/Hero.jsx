@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <>
             <div id="home" className="flex flex-col items-center mt-6 lg:mt-20">
-                <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl text-center tracking-wide">
                     The only team you need to bring 
                     <span className="bg-gradient-to-r from-indigo-500 to-indigo-800 text-transparent bg-clip-text">
                         {" "}
