@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
         <footer id="contact" className="mt-20 border-t py-10 border-neutral-700">
-            <h3>MySkyTech</h3>
+            <h3 className="tracking-wide">MySkyTech</h3>
             <span className="text-sm text-neutral-500">Copyright © 2024 All rights reserved</span>
             <div className="flex flex-wrap items-center">
                 {socialLinks.map((social, index) => (

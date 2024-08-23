@@ -6,8 +6,8 @@ import { Handshake } from "lucide-react";
 import { Shield } from "lucide-react";
 // import { Gauge } from "lucide-react";
 
-import linkedin from "../../public/fb.svg";
-import mail from "../../public/mail.svg";
+import linkedin from "../assets/linkedin.svg";
+import mail from "../assets/mail.svg";
 
 import user1 from "../assets/user1.jpg";
 import user2 from "../assets/user2.jpg";
@@ -25,7 +25,13 @@ export const testimonials = [
         user: "John Doe",
         company: "Stellar Solutions",
         image: user1,
-        text: "These are very hardworking persons. I was very satisfied with the services provided!These are very hardworking persons. I was very satisfied with the services provided!These are very hardworking persons. I was very satisfied with the services provided!"
+        text: "Harsh is very hardworking person. I repeat the same thing as John said. I was very satisfied with the services provided!These are very hardworking persons. I was very satisfied with the services provided!"
+    },
+    {
+        user: "Johnny Doing",
+        company: "Stellary Business",
+        image: user2,
+        text: "Harsh is very hardworking person. I repeat the same thing as John said. I was very satisfied with the services provided!These are very hardworking persons. I was very satisfied with the services provided!"
     },
     {
         user: "Johnny Doing",

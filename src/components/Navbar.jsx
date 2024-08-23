@@ -16,9 +16,9 @@ export default function Navbar() {
             <div className="flex justify-between items-center">
                 <div className="flex items-center flex-shrink-0">
                     <LoaderPinwheel className='h-10 w-10 mr-2 text-indigo-500'/>
-                    <span className="text-xl tracking-tight">MySkyTech</span>
+                    <span className="text-xl tracking-wide">MySkyTech</span>
                 </div>
-                <ul className="hidden lg:flex ml-14 space-x-12">
+                <ul className="hidden lg:flex ml-12 space-x-12">
                     {navItems.map((item, index) => (
                         <li key={index} className='hover:underline hover:decoration-indigo-600 focus:text-indigo-500'>
                             <a href={item.href}>{item.label}</a>
