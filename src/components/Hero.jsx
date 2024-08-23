@@ -21,7 +21,7 @@ export default function Hero() {
                     your ideas to life
                     </span>
                 </h1>
-                <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
+                <p className="mt-10 text-lg text-center text-neutral-400/90 max-w-4xl">
                     Providing innovative, reliable, and customized technological solutions that empower businesses to achieve their goals and stay ahead in the competitive market.
                 </p>
                 <div className="flex justify-center my-10">

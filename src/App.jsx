@@ -1,3 +1,4 @@
+import ContactForm from "./components/contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ export default function App() {
       <div className="max-w-7xl pt-20 mx-auto px-6">
         <Services />
         <Testimonials />
+        <ContactForm />
         <Footer />
       </div>
     </>
