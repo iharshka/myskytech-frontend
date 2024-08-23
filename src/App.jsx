@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
       <Navbar />
+      <Hero />
       <div className="max-w-7xl pt-20 mx-auto px-6">
-        <Hero />
         <Services />
         <Testimonials />
         <Footer />
