@@ -1,5 +1,4 @@
 import heroVideo from '../assets/hero.mp4'
-import codeVideo from '../assets/code.mp4'
 import { useState } from 'react'
 
 export default function Hero() {
@@ -10,7 +9,7 @@ export default function Hero() {
     return (
         <>
             <div id="home" className="relative h-screen w-full">
-                <video autoPlay loop muted className="absolute inset-0 w-full h-full object-cover">
+                <video autoPlay loop muted playsInline className="absolute inset-0 w-full h-full object-cover">
                     <source src={heroVideo} type="video/mp4" />
                     Video can't be Played!
                 </video>
@@ -31,16 +30,6 @@ export default function Hero() {
                     </a>
                     <a href="#" onClick={toggleComingSoonBlog} className="py-3 px-4 mx-3 rounded-md border">{comingsoonBlogs}</a>
                 </div>
-                {/* <div className="flex mt-10 justify-center">
-                    <video autoPlay loop muted className="rounded-lg w-1/2 border border-indigo-500 shadow-indigo-400 my-4 mx-2">
-                    <source src={codeVideo} type="video/mp4" />
-                    Video can't be Played!
-                    </video>
-                    <video autoPlay loop muted className="rounded-lg w-1/2 border border-indigo-500 shadow-indigo-400 my-4 mx-2">
-                    <source src={heroVideo} type="video/mp4" />
-                    Video can't be Played!
-                    </video>
-                </div> */}
             </div>
             </div>
         </>
