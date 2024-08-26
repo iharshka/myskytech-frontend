@@ -25,7 +25,7 @@ export default function Hero() {
                     Providing innovative, reliable, and customized technological solutions that empower businesses to achieve their goals and stay ahead in the competitive market.
                 </p>
                 <div className="flex justify-center my-10">
-                    <a href="#" className="bg-gradient-to-r from-indigo-500 to-indigo-800 py-3 px-4 mx-3 rounded-md">
+                    <a href="#contact" className="bg-gradient-to-r from-indigo-500 to-indigo-800 py-3 px-4 mx-3 rounded-md">
                         Contact Us
                     </a>
                     <a href="#" onClick={toggleComingSoonBlog} className="py-3 px-4 mx-3 rounded-md border">{comingsoonBlogs}</a>
