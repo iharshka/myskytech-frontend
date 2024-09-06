@@ -1,6 +1,6 @@
 import {Menu, X} from "lucide-react";
 import { useState } from "react";
-import { LoaderPinwheel } from 'lucide-react';
+import Logo from "/Asset1.svg";
 import { navItems } from '../constants/index';
 
 export default function Navbar() {
@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="container px-4 mx-auto relative text-sm">
             <div className="flex justify-between items-center">
                 <div className="flex items-center flex-shrink-0">
-                    <LoaderPinwheel className='h-10 w-10 mr-2 text-indigo-500'/>
+                    <img src={Logo} className='h-10 w-10 mr-2 text-indigo-500'/>
                     <span className="text-xl tracking-wide">MySkyTech</span>
                 </div>
                 <ul className="hidden lg:flex ml-12 space-x-12">
